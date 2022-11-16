@@ -1,38 +1,253 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+.container{
+    position: relative;
+    width: 1600px;
+    height: 1200px;   
+}
+.bg{
+    
+    position: absolute;
+    width: 1600px;
+    height: 1200px;
+}
+.box{
+    
+    position: absolute;
+    background-color: #FDFDFD;
+    width: 1440px;
+    height: 916px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 142px;
+    border-radius: 24px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 256px;
+    height: 916px;
+    
+    border-right: 1px solid #E4E4E4;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.logo{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    color: #11142D;   
+    margin-left: 42px;
+    margin-top: 49px; 
+    margin-bottom: 57px;
+}
+.logo:after{
+    font-family: 'Poppins';
+    color: #FF7C5D;
+    content: attr(data-descr); 
+}
+.Bar{
+    display: flex;
+    align-items: center;
+    width: 216px;
+    height: 56px;
+    
+}
+.Bar:hover{
+    background-color: #2F3CED;
+    width: 216px;
+    height: 56px;
+    border-radius: 0px 12px 12px 0px;
+    cursor: pointer;
+}
+.Bar:hover p{
+    font-family: 'inter';
+    color: #FDFDFD;
+    cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Bar-icon{ 
+    color: #808191;
+    width: 24px;
+    height: 24px;
+    margin-right: 18px;
+    margin-left: 24px;
+}
+.Bar-icon_note{
+    color: #808191;
+    width: 20px;
+    height: 22px;
+    margin-right: 18px;
+    margin-left: 24px;
+}
+.Bar-icon_aw{
+    color: #808191;
+    width: 14px;
+    height: 21px;
+    margin-right: 21px;
+    margin-left: 24px;
+}
+.Bar-icon_cer{
+    color: #808191;
+    width: 18px;
+    height: 18px;
+    margin-right: 18px;
+    margin-left: 24px;
+}
+.Bar-icon_set{
+    color: #808191;
+    width: 17px;
+    height: 19px;
+    margin-right: 18px;
+    margin-left: 24px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.Bar-text{
+    font-family: 'inter';
+    color: #808191;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.avatar-box{
+    display: flex;
+    align-items: center;
+    margin-top: 294px;
+    margin-left: 24px;
 }
+.avatar{
+    width: 40px;
+    height: 40px;
+}
+.text-box{
+    margin-left: 16px;
+    margin-right: 39px;
+}
+.name{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #11142D;  
+    cursor: pointer;  
+}
+.sub{
+    font-family: 'inter';
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #808191;
+    cursor: pointer;
+}
+.arrow{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.middle{
+    float: left;
+}
+.title{
+    margin-top: 47px;
+    margin-left: 34px;
+}
+.hi{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #11142D;
+}
+.learn{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #11142D;
+    margin-bottom: 29px;
+}
+.toda-box{
+    display: flex;
+    background-color: #2F3CED;
+    width: 620px;
+    height: 405px;
+    border-radius: 24px;
+    margin-left: 34px;
+}
+.toda{
+    margin-top: 47px;
+    margin-left: 14px;
+    width: 359px; 
+    height: 359px;
+}
+.art{
+    font-family: 'Poppins';
+    color: #FFFFFF;
+    
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 51px;
+    margin-right: 27px;
+}
+.art-learn{
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 203px;
+    height: 96px;
+    margin-top: 8px;
+    margin-bottom: 34px;
+}
+.learn-button{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #11142D;
+    text-decoration: none;
+    
+    background-color: #FFFFFF;
+    padding: 18px 43px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.250929);
+}
+.dots{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 62px;
+}
+.classicDots{
+    background-color: #FFFFFF;  
+    width: 4px;
+    height: 4px; 
+    border-radius: 50px; 
+    gap: 16px;
+}
+.classicDots:hover{
+    display: flex;
+    align-items: center;
+    background-color: #A0D7E7;  
+    width: 8px;
+    height: 8px; 
+    border-radius: 50px; 
+}
+
+
+
