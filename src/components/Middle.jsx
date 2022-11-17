@@ -1,5 +1,6 @@
 import '../App.css'
 import Learn from './Learn';
+import Path from './Path';
 
 function middle(){
     return(
@@ -9,6 +10,7 @@ function middle(){
               <p className="learn">What will you learn today?</p>   
             </div>
              <Learn/>
+             <Path/>
         </div>
     );
 }

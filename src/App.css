@@ -180,14 +180,45 @@
     color: #11142D;
     margin-bottom: 29px;
 }
+.learn-box{
+    position: absolute;
+}
 .toda-box{
     display: flex;
+    position: absolute;
     background-color: #2F3CED;
     width: 620px;
     height: 405px;
     border-radius: 24px;
-    margin-left: 34px;
+    
+    margin-left: -10px;
+    margin-top: -10px;
 }
+.toda-box_light{
+    display: flex; 
+    position: absolute;
+    Width: 600px;
+    height: 404px;
+    border-radius: 24px;
+    background-color: #AFD5FF;
+
+    margin-left: -12px;
+    margin-top: -11px;
+
+}
+.toda-box_lighter{
+    position: absolute;
+    Width: 574px;
+    Height: 404px;
+    border-radius: 24px;
+    background-color: #afd4ff50;
+    
+    margin-left: 54px;
+    margin-top: 21px;
+    
+}
+
+
 .toda{
     margin-top: 47px;
     margin-left: 14px;
@@ -221,32 +252,124 @@
     line-height: 20px;
     color: #11142D;
     text-decoration: none;
-    
     background-color: #FFFFFF;
     padding: 18px 43px;
     border-radius: 16px;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.250929);
 }
+
 .dots{
+    position: absolute;
     display: flex;
     align-items: center;
     gap: 16px;
     margin-top: 62px;
+    width: 68px;
+    height: 8px;
+}
+.dotsDots:hover{
+    position: relative;
+    
+    display: flex;
+    align-items: center;
+    background-color: #A0D7E7;  
+    justify-content: center;
+    width: 8px;
+    height: 8px; 
+    border-radius: 50px;
 }
 .classicDots{
+    display: flex;
+    
+    align-items: center;
+    position: relative;
     background-color: #FFFFFF;  
     width: 4px;
     height: 4px; 
     border-radius: 50px; 
     gap: 16px;
 }
-.classicDots:hover{
+.op{
+    font-family: 'inter';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 163.42%;
+    color: #121212;
+    margin-top: 499px;
+    margin-left: 33px;
+    margin-bottom: 16px;
+}
+.shado{
+    position: relative;
+    width: 1px;
+    background: #B7B7B7;
+    mix-blend-mode: multiply;
+    
+    filter: blur(43.4925px);
+    
+}
+.paths{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 190px;
+    height: 187px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    margin-left: 34px;
+    
+}
+.paths-title{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #11142D;
+    font-family: 'Inter';
+    margin-left: 20px;
+    margin-bottom: 8px;
+}
+.paths-lenght{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    Width: 149px;
+    Height: 32px;
+    color: #808191;
+    margin-left: 20px;
+    margin-bottom: 37px;
+}
+.paths-bottom{
     display: flex;
     align-items: center;
-    background-color: #A0D7E7;  
-    width: 8px;
-    height: 8px; 
-    border-radius: 50px; 
+    justify-content: ;
+}
+.paths-students{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 20px;
+}
+.student{
+    margin-left: 20px;
+    margin-top: 16px;
+    width: 64px;
+    height: 24px;
+}
+.star{
+    width: 16px;
+    height: 15px;
+    margin-left: 47px;
+    margin-top: 18px;
+}
+.twoDots{
+    margin-left: 10px;
+    margin-top: 18px;
 }
 
 
