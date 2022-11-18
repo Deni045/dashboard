@@ -2,6 +2,7 @@ import bg from '../src/static/img/BG.png'
 import './App.css';
 import Left from '../src/components/Left';
 import Middle from '../src/components/Middle'
+import Right from '../src/components/right';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <div className='box'>
         <Left/>
         <Middle/>
+        <Right/>
       </div>
       
     </div>
